@@ -1,0 +1,43 @@
+/* ─── Two-Column Step/Image Layout ──────────────────────────────────────── */
+.step-image-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin: 1.5rem 0 2rem;
+}
+
+.step-image-layout .steps-col ol {
+  padding-left: 1.4rem;
+  margin: 0;
+}
+
+.step-image-layout .steps-col li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.step-image-layout .images-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  position: sticky;
+  top: 1rem;
+}
+
+.step-image-layout .images-col img {
+  max-width: 100%;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+/* Stack vertically on narrow screens */
+@media (max-width: 768px) {
+  .step-image-layout {
+    grid-template-columns: 1fr;
+  }
+  .step-image-layout .images-col {
+    position: static;
+  }
+}
