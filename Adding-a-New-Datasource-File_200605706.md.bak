@@ -30,10 +30,6 @@ Column A is sequence “0”, Column B is sequence “1”, etc.
 
 ***Example:*** Using step 3 from the previous subsection, you can see how the sequence is populated in the screenshot for this step.
 
-
-<div class="step-image-layout" markdown="1">
-<div class="steps-col" markdown="1">
-
 1. Press the *Save* button on the right corner of the screen to add your datasource file to the RxConsole for your state.
 
 2. Alternatively, if you do not wish to add your data source you can press the *Cancel* button to discard changes and return to the previous screen.
@@ -42,18 +38,4 @@ Column A is sequence “0”, Column B is sequence “1”, etc.
 
    You will also return to the Datasource screen and should see your datasource in the *List of Datasources*.
 
-</div>
-<div class="images-col">
-
-![image-20260113-205713.png](attachments/200605706/201228314.png?width=211)
-![image-20260113-205728.png](attachments/200605706/201654282.png?width=219)
-![image-20260113-205751.png](attachments/200605706/202604547.png?width=181)
-![image-20260113-205850.png](attachments/200605706/201457666.png?width=205)
-![image-20260113-205855.png](attachments/200605706/201654288.png?width=194)
-![image-20260113-210019.png](attachments/200605706/201555978.png?width=49)
-![image-20260113-210024.png](attachments/200605706/202014729.png?width=59)
-![image-20260113-210034.png](attachments/200605706/200605713.png?width=199)
-![image-20260113-210039.png](attachments/200605706/201752594.png?width=199)
-
-</div>
-</div>
+![image-20260113-205713.png](attachments/200605706/201228314.png?width=211)![image-20260113-205728.png](attachments/200605706/201654282.png?width=219)![image-20260113-205751.png](attachments/200605706/202604547.png?width=181)![image-20260113-205850.png](attachments/200605706/201457666.png?width=205)![image-20260113-205855.png](attachments/200605706/201654288.png?width=194)![image-20260113-210019.png](attachments/200605706/201555978.png?width=49)![image-20260113-210024.png](attachments/200605706/202014729.png?width=59)![image-20260113-210034.png](attachments/200605706/200605713.png?width=199)![image-20260113-210039.png](attachments/200605706/201752594.png?width=199)

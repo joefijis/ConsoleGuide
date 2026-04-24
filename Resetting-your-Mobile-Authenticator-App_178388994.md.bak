@@ -18,10 +18,6 @@ b. Clicking *Reset QR Code* on the authenticator code screen
 
 *The QR code here is for reference only.*
 
-![image-20251218-154848.png](attachments/178388994/179568641.png?width=207)
-![image-20251218-154948.png](attachments/178388994/179339281.png?width=234)
-![image-20251218-155003.png](attachments/178388994/178389001.png?width=246)
-![image-20251218-155039.png](attachments/178388994/178323459.png?width=200)
-![image-20251218-155125.png](attachments/178388994/179077123.png?width=84)
+![image-20251218-154848.png](attachments/178388994/179568641.png?width=207)![image-20251218-154948.png](attachments/178388994/179339281.png?width=234)![image-20251218-155003.png](attachments/178388994/178389001.png?width=246)![image-20251218-155039.png](attachments/178388994/178323459.png?width=200)![image-20251218-155125.png](attachments/178388994/179077123.png?width=84)
 
 If the user previously set up authentication in a mobile authenticator app, they should delete the existing RxConsole account entry in that authenticator app before scanning the new QR code to avoid duplicate entries.

@@ -9,10 +9,6 @@ nav_order: 5
 
 QQ has been selected for demonstration purposes.
 
-
-<div class="step-image-layout" markdown="1">
-<div class="steps-col" markdown="1">
-
 1. Review the list of HCE’s associated with the selected site, as displayed on the right-side of the screen.
 
 2. Click on a healthcare entity to view expanded details relating to its site configuration and facilities data.
@@ -27,17 +23,4 @@ QQ has been selected for demonstration purposes.
    1. If access was granted, an alert that states “Site Unblocked Successfully”, or
    2. If access was revoked, an alert that states “Site Blocked Successfully”
 
-</div>
-<div class="images-col">
-
-![image-20260108-200617.png](attachments/197951495/198082563.png?width=209)
-![image-20260108-200638.png](attachments/197951495/195002401.png?width=216)
-![image-20260108-200752.png](attachments/197951495/197099543.png?width=356)
-![image-20260108-200801.png](attachments/197951495/198246401.png?width=356)
-![image-20260108-200824.png](attachments/197951495/195559485.png?width=66)
-![image-20260108-200837.png](attachments/197951495/197951502.png?width=64)
-![image-20260108-200848.png](attachments/197951495/197492742.png?width=159)
-![image-20260108-200853.png](attachments/197951495/196313115.png?width=158)
-
-</div>
-</div>
+![image-20260108-200617.png](attachments/197951495/198082563.png?width=209)![image-20260108-200638.png](attachments/197951495/195002401.png?width=216)![image-20260108-200752.png](attachments/197951495/197099543.png?width=356)![image-20260108-200801.png](attachments/197951495/198246401.png?width=356)![image-20260108-200824.png](attachments/197951495/195559485.png?width=66)![image-20260108-200837.png](attachments/197951495/197951502.png?width=64)![image-20260108-200848.png](attachments/197951495/197492742.png?width=159)![image-20260108-200853.png](attachments/197951495/196313115.png?width=158)

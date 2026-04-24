@@ -9,10 +9,6 @@ nav_order: 45
 
 The names of the headers are described in the table following these steps.
 
-
-<div class="step-image-layout" markdown="1">
-<div class="steps-col" markdown="1">
-
 1. To view and/or modify an existing validation, click on the name of a validation.
 
 2. The following screen allows you to change settings related to the existing validation.
@@ -32,26 +28,7 @@ The names of the headers are described in the table following these steps.
 
    You will also return to the Provider Validation screen and should see your changes in the *List of Provider Validations*.
 
-</div>
-<div class="images-col">
-
-![image-20260113-210742.png](attachments/200572941/202080262.png?width=225)
-![image-20260113-210814.png](attachments/200572941/201588738.png?width=118)
-![image-20260113-210819.png](attachments/200572941/200605727.png?width=135)
-![image-20260113-210825.png](attachments/200572941/200966157.png?width=132)
-![image-20260113-210924.png](attachments/200572941/202964993.png?width=165)
-![image-20260113-210959.png](attachments/200572941/202342413.png?width=206)
-![image-20260113-211024.png](attachments/200572941/202571780.png?width=153)
-![image-20260113-211028.png](attachments/200572941/202899464.png?width=119)
-![image-20260113-211033.png](attachments/200572941/202047515.png?width=109)
-![image-20260113-211038.png](attachments/200572941/202997761.png?width=206)
-![image-20260113-211143.png](attachments/200572941/201785346.png?width=49)
-![image-20260113-211148.png](attachments/200572941/202375175.png?width=59)
-![image-20260113-211153.png](attachments/200572941/203030529.png?width=198)
-
-</div>
-</div>
-
+![image-20260113-210742.png](attachments/200572941/202080262.png?width=225)![image-20260113-210814.png](attachments/200572941/201588738.png?width=118)![image-20260113-210819.png](attachments/200572941/200605727.png?width=135)![image-20260113-210825.png](attachments/200572941/200966157.png?width=132)![image-20260113-210924.png](attachments/200572941/202964993.png?width=165)![image-20260113-210959.png](attachments/200572941/202342413.png?width=206)![image-20260113-211024.png](attachments/200572941/202571780.png?width=153)![image-20260113-211028.png](attachments/200572941/202899464.png?width=119)![image-20260113-211033.png](attachments/200572941/202047515.png?width=109)![image-20260113-211038.png](attachments/200572941/202997761.png?width=206)![image-20260113-211143.png](attachments/200572941/201785346.png?width=49)![image-20260113-211148.png](attachments/200572941/202375175.png?width=59)![image-20260113-211153.png](attachments/200572941/203030529.png?width=198)
 
 | **Header** | **Description** |
 | --- | --- |

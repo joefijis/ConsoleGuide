@@ -17,8 +17,4 @@ RxConsole also allows a PDMP Administrator to enable an API endpoint to download
 
 The system generates a sample API request to be used as a reference for developing a module to download Hub audit logs.
 
-![image-20260107-205502.png](attachments/193626113/193724417.png?width=226)
-![image-20260107-205515.png](attachments/193626113/193757185.png?width=225)
-![image-20260107-205704.png](attachments/193626113/193822721.png?width=25)
-![image-20260107-205729.png](attachments/193626113/193855489.png?width=24)
-![image-20260107-205737.png](attachments/193626113/191987715.png?width=25)
+![image-20260107-205502.png](attachments/193626113/193724417.png?width=226)![image-20260107-205515.png](attachments/193626113/193757185.png?width=225)![image-20260107-205704.png](attachments/193626113/193822721.png?width=25)![image-20260107-205729.png](attachments/193626113/193855489.png?width=24)![image-20260107-205737.png](attachments/193626113/191987715.png?width=25)
