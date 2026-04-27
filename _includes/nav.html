@@ -1,0 +1,44 @@
+{% comment %}
+  Builds a two-level sidebar nav from all pages that have a title in front matter.
+  - Top-level pages (no parent) are listed first, sorted by nav_order
+  - Child pages are grouped under their parent heading
+{% endcomment %}
+
+{% assign top_pages = site.pages
+    | where_exp: "p", "p.title != nil"
+    | where_exp: "p", "p.parent == nil"
+    | where_exp: "p", "p.nav_exclude != true"
+    | sort: "nav_order" %}
+
+{% assign child_pages = site.pages
+    | where_exp: "p", "p.title != nil"
+    | where_exp: "p", "p.parent != nil"
+    | where_exp: "p", "p.nav_exclude != true"
+    | sort: "nav_order" %}
+
+<ul>
+  {% for p in top_pages %}
+    <li>
+      <a href="{{ p.url | relative_url }}"
+         {% if p.url == page.url %}class="active"{% endif %}>
+        {{ p.title }}
+      </a>
+
+      {% comment %} Collect children of this page {% endcomment %}
+      {% assign children = child_pages | where: "parent", p.title %}
+      {% if children.size > 0 %}
+        <ul>
+          {% for child in children %}
+            <li class="nav-child">
+              <a href="{{ child.url | relative_url }}"
+                 {% if child.url == page.url %}class="active"{% endif %}>
+                {{ child.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <nav id="sidebar">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {% include nav.html %}
+  </nav>
+
+  <main id="content">
+    {% if page.parent %}
+      <div class="breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <span>›</span> {{ page.parent }}
+      </div>
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+  </main>
+
+  <script>
+    // Highlight the current page link in the sidebar
+    document.querySelectorAll('#sidebar a').forEach(function(a) {
+      if (a.href === window.location.href) a.classList.add('active');
+    });
+  </script>
+
+</body>
+</html>
