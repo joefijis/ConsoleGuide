@@ -1,0 +1,26 @@
+# --- Site Settings ---
+title: RxConsole User Guide
+description: >- 
+  A clear and complete set of documentation to manage your interstate data-sharing in the RxConsole.
+baseurl: "/ConsoleGuide" # Set to "/repo-name" if not using a custom domain
+url: "https://joefijis.github.io/ConsoleGuide/"     # e.g., https://username.github.io
+
+# --- Build Settings ---
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# --- Markdown & Syntax ---
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  parse_block_html: true  ← required for markdown="1" inside divs
+# --- Exclude ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .github/
